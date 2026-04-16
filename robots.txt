@@ -1,0 +1,23 @@
+# Robots.txt for Spotify Premium Upgrade Reseller Website
+# This file tells search engine crawlers which pages to index
+
+User-agent: *
+
+# Allow all public pages
+Allow: /index.php
+Allow: /upgrade.php
+Allow: /renew.php
+Allow: /info.php
+
+# Block admin and API endpoints
+Disallow: /admin/
+Disallow: /api/
+Disallow: /config/
+Disallow: /includes/
+
+# Block sensitive files
+Disallow: /*.json$
+Disallow: /assets/js/config.php
+
+# Sitemap - use the PHP version for dynamic URL generation
+Sitemap: /sitemap.php
