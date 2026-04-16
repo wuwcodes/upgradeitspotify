@@ -1,0 +1,99 @@
+{
+    "previewMode": false,
+    "apiKey": "YOUR_API_KEY_HERE",
+    "adminPassword": "Taha2211",
+    "apiBaseUrl": "https://upgrader.cc/api",
+    "branding": {
+        "siteName": "UpgradeIT",
+        "tagline": "Upgrade Your Spotify Account to Premium",
+        "supportEmail": "texturized on discord",
+        "logo": "./assets/images/logo.png",
+        "favicon": "./assets/images/favicon.png"
+    },
+    "deliveryInstructions": "You will receive an upgrade key. Copy this key and paste it in Step 2 below.",
+    "colors": {
+        "primary": "#1DB954",
+        "primaryDark": "#1ed760",
+        "background": "#121212",
+        "surface": "#181818",
+        "text": "#ffffff",
+        "textSecondary": "#b3b3b3"
+    },
+    "countries": [],
+    "features": [
+        {
+            "title": "Instant Activation",
+            "description": "Get Premium access within 5-10 minutes of submission"
+        },
+        {
+            "title": "Secure Service",
+            "description": "Bank-level encryption and secure payment processing"
+        },
+        {
+            "title": "24/7 Support",
+            "description": "Round-the-clock customer support for all your needs"
+        },
+        {
+            "title": "Free Replacements",
+            "description": "Unlimited free replacements if any issues occur"
+        },
+        {
+            "title": "No Ads",
+            "description": "Enjoy uninterrupted music without any advertisements"
+        },
+        {
+            "title": "Offline Listening",
+            "description": "Download and listen to your favorite tracks offline"
+        },
+        {
+            "title": "Unlimited Skips",
+            "description": "Skip as many songs as you want, anytime"
+        },
+        {
+            "title": "High Quality Audio",
+            "description": "Stream in high-quality audio up to 320kbps"
+        }
+    ],
+    "packages": [
+        {
+            "id": "1-key",
+            "name": "1 Key",
+            "quantity": 1,
+            "description": "Perfect for a single account upgrade",
+            "price": "14.99",
+            "enabled": true,
+            "paymentLinks": {
+                "stripe": "",
+                "paypal": "",
+                "crypto": ""
+            }
+        },
+        {
+            "id": "5-keys",
+            "name": "5 Keys",
+            "quantity": 5,
+            "description": "Best for small groups or resellers",
+            "price": "59.99",
+            "popular": true,
+            "enabled": true,
+            "paymentLinks": {
+                "stripe": "",
+                "paypal": "",
+                "crypto": ""
+            }
+        },
+        {
+            "id": "10-keys",
+            "name": "10 Keys",
+            "quantity": 10,
+            "description": "Popular choice for resellers",
+            "price": "99.99",
+            "enabled": true,
+            "paymentLinks": {
+                "stripe": "",
+                "paypal": "",
+                "crypto": ""
+            }
+        }
+    ]
+}
